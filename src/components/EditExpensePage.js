@@ -1,4 +1,5 @@
 import React from 'react'
+import { connect } from 'react-redux'
 
 const EditExpensePage = (props) => {
     return (
@@ -8,4 +9,5 @@ const EditExpensePage = (props) => {
     )
 }
 
-export default EditExpensePage
+const ConnectedEditExpensePage = connect()(EditExpensePage)
+export default ConnectedEditExpensePage

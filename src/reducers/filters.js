@@ -1,7 +1,7 @@
 
 const filtersReducerDefaultState = {
     text: "",
-    sortBy: "Date",
+    sortBy: "date",
     startDate: undefined,
     endDate: undefined,
   };

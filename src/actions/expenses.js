@@ -1,4 +1,4 @@
-import uuid from 'uuid'
+import { v4 as uuidv4 } from 'uuid';
 export const addExpense = ({
     description = "",
     note = "",
@@ -7,7 +7,7 @@ export const addExpense = ({
   } = {}) => ({
     type: "ADD_EXPENSE",
     expense: {
-      id: uuid(),
+      id: uuidv4(),
       description,
       note,
       amount,
