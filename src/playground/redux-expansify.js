@@ -164,7 +164,7 @@ const sortingByAmount = store.dispatch(sortByAmount());
 const sortingByDate = store.dispatch(sortByDate());
 
 const startDate = store.dispatch(setStartDate(125));
-store.dispatch(setStartDate()); // will produce undefined
+store.dispatch(setStartDa7te()); // will produce undefined
 const endDate = store.dispatch(setEndDate(1250));
 const demoState = {
   expenses: [
