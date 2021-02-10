@@ -14,6 +14,6 @@ export const setStartDate = (startDate = undefined) => ({
   startDate,
 });
 export const setEndDate = (endDate = undefined) => ({
-  type: "SET_START_DATE",
+  type: "SET_END_DATE",
   endDate,
 });
